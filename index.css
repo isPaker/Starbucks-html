@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'iconfont';  /* Project id 2790806 */
+    src: url('http://at.alicdn.com/t/font_2790806_83gzujqj6em.woff2?t=1630946016303') format('woff2'),
+         url('http://at.alicdn.com/t/font_2790806_83gzujqj6em.woff?t=1630946016303') format('woff'),
+         url('http://at.alicdn.com/t/font_2790806_83gzujqj6em.ttf?t=1630946016303') format('truetype');
+  }
+.iconfont {
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+}
+html {
+    font-size: 62.5% !important;
+}
+@media (min-width: 992px){
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 768px){
+    html {
+        font-size: 59%;
+    }
+}
+@media (min-width: 556px){
+    html {
+        font-size: 56%;
+    }
+}
+body {
+    overflow-x: hidden;
+}
+a {
+    color: inherit;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.leftCon {
+    left: 0;
+}
+.leftCon header {
+    height: 80px;
+}
+button.menuBtn {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+	cursor: pointer;
+	color: #858585;
+}
+button.menuBtn:hover {
+    color: #000;
+}
+.leftCon .menu-login {
+    height: calc(100vh - 80px);
+}
+.menu-login h3 {
+    font-size: 2.6rem;
+}
+.icon-kaifei {
+    font-size: 28px;
+    color: burlywood;
+}
+.rigister {
+    display: inline-block;
+    border-radius: 13px;
+    font-weight: 500;
+    color: #00A862;
+}
+a.rigister:hover {
+    color: #00A862;
+}
+.icon-denglu {
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+@media (max-width: 992px){
+    .leftCon {
+        position: relative !important;
+    }
+    .leftCon .menu-login {
+        height: auto;
+    }
+}
+
+.menuCon {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 2000;
+
+    transition: 0.2s;
+}
+.menuCon.hide{
+    opacity: 0;
+    z-index: -1;
+    transform: scale(2);
+}
+.menuCon.show {
+    opacity: 1;
+    transform: scale(1);
+}
+button.closeBtn {
+    background-color: #fff;
+    border: none;
+    font-size: 2.2rem;
+    color: #858585;
+}
+button.closeBtn:hover {
+    color: #000;
+}
+.list ul li a {
+    font-size: 1.8rem;
+}
+.menuCon footer {
+    color: rgba(0, 0, 0, 0.12);
+}
+.menuCon footer a{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+#pic a span {
+    width: 40px;
+    height: 40px;
+}
+.pic-list div a img{
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.pic-list div a:hover img{
+    transform: translateY(-4px);
+}
+.star h3 {
+    font-size: 2.2rem;
+}
+.star p {
+    font-size: 1.6rem;
+}
+.star p.light {
+    color: rgba(0, 0, 0, 0.56);
+}
+.star p.light a {
+    color: #C2A661;
+}
+.select h3, .coffeeHouse h3 {
+    font-size: 2.2rem;
+}
+.select p, .coffeeHouse p  {
+    font-size: 1.6rem;
+}
+.select ul a h3 {
+    font-size: 1.6rem;
+}
+.select ul a p {
+    font-size: 1.4rem;
+}
+.select ul a:hover {
+    color: #000;
+}
+.select ul li {
+    margin-top: 56px;
+}
+.select-card {
+    width: 100%;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.select-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 3px 2px rgb(0 0 0 / 12%);
+}
+.select-card img {
+    margin-top: -24px;
+}
+.select .select-card .more {
+    font-size: 1.2rem;
+    color: #887035;
+}
+.scroll {
+    width: 1216px;
+}
+.scroll li {
+    width: 288px;
+}
+.scroll li span {
+    font-size: 1.4rem;
+    background: #C2A661;
+    left: 0;
+    top: 6px;
+}
+.coffeeHouse .card {
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+.coffeeHouse .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 3px 2px rgb(0 0 0 / 12%);
+}
+.footer footer{
+    color: #666;
+}
+.footer footer a:hover{
+    color: #000;
+}
+.scroll-prev, .scroll-next {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-align: center;
+    top: 50%;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.scroll-prev {
+    left: 10px;
+    display: none;
+}
+.scroll-next {
+    right: 10px;
+}
+.mobile-menu span{
+    font-size: 1.6rem;
+}
+.mobile-menu span.iconfont {
+    font-size: 2.2rem;
+}
+.mobile-menu a {
+    color: rgba(0, 0, 0, 0.56);
+}
+.mobile-menu a.active{
+    color: #00A862;
+}
+.mobile-menu a:hover {
+    color: rgba(0, 0, 0, 0.56);
+}
+.mobile-menu a.active:hover{
+    color: #00A862;
+}
